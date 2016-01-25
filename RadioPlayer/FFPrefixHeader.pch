@@ -1,0 +1,20 @@
+//
+//  FFPrefixHeader.pch
+//  RadioPlayer
+//
+//  Created by Majid Hatami Aghdam on 1/24/16.
+//  Copyright © 2016 Majid Hatami Aghdam. All rights reserved.
+//
+
+#ifndef FFPrefixHeader_pch
+#define FFPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifndef CONFIG_AVFILTER
+#define CONFIG_AVFILTER 1
+#endif
+
+
+#endif /* FFPrefixHeader_pch */
